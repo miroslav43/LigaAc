@@ -1,0 +1,45 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.dreapta {
+    width: 51%;
+    float: right;
+    background-color: yellow;
+    height: 1000px;
+    margin-top: -10px;
+    position: relative;
+    margin-right: -1%;
+}
+
+.stanga {
+    width: 51%;
+    margin-left: -1%;
+    margin-top: -10px;
+    float: left;
+    background-color: blue;
+    height: 1000px;
+}
+
+.buton1 {
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin-left: -200px;
+    margin-top: 400px;
+    background-color: blueviolet;
+    font-size: 100px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+a:hover {
+    background-color: rgb(7, 50, 190);
+    color: rgb(255, 251, 0);
+}

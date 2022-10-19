@@ -1,0 +1,39 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.jos {
+    width: 105%;
+    background-color: green;
+    height: 500px;
+    margin: -1%;
+}
+
+.sus {
+    width: 105%;
+    background-color: red;
+    height: 500px;
+    margin: -1%;
+}
+
+.buton2 {
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin-left: 41%;
+    margin-top: 400px;
+    background-color: blueviolet;
+    font-size: 100px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+a:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(8, 153, 39);
+}
